@@ -1,0 +1,79 @@
+.moonContentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -200px;
+}
+
+.moonContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moonContentText {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 500px;
+}
+.moonwrittenDetails{
+    display:flex;
+    flex-direction:column;
+}
+
+.moonContentText h1 {
+  color: #fff;
+  font-size: 100px;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.moonContentText p {
+  color: #d0d6f9;
+  font-size: 18px;
+  font-family: "Barlow Condensed", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.detailsLeft,
+.detailsRight {
+  text-align: center;
+}
+
+.details h4 {
+  color: #d0d6f9;
+  font-size: 14px;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  text-transform: uppercase;
+}
+
+.details h1 {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.moonContentImage img {
+    width: 100%;
+}
+
+/* Add any additional styles as needed */
