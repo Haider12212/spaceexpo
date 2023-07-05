@@ -1,0 +1,79 @@
+.titanContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -200px;
+}
+
+.titanContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titanContentText {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 500px;
+}
+.titanwrittenDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.titanContentText h1 {
+  color: #fff;
+  font-size: 100px;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.titanContentText p {
+  color: #d0d6f9;
+  font-size: 18px;
+  font-family: "Barlow Condensed", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.titanDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.titanDetailsLeft,
+.titanDetailsRight {
+  text-align: center;
+}
+
+.titanDetails h4 {
+  color: #d0d6f9;
+  font-size: 14px;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  text-transform: uppercase;
+}
+
+.titanDetails h1 {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.titanImage img {
+  width: 100%;
+}
+
+/* Add any additional styles as needed */

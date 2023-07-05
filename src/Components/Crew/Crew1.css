@@ -1,0 +1,57 @@
+.crew1Container {
+    /* margin-top: 200px; */
+    overflow: hidden;
+    overflow-x: hidden;
+  overflow-y: hidden;
+  }
+  
+  .crew1Content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 100px;
+  }
+  
+  .crew1ContentImage {
+    width: 568.072px;
+    height: 712px;
+    margin-top: -70px;
+    flex-shrink: 0;
+  }
+  
+  .crew1ContentText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .crew1ContentText h1 {
+    color: #fff;
+    font-size: 32px;
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  .crew1ContentText p {
+    color: #d0d6f9;
+    font-size: 18px;
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  
+  .crew1ContentText h3 {
+    color: #fff;
+    font-size: 56px;
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  

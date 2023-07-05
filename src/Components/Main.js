@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Main.css";
 import Home from "./Home.js";
 import Destination from "./Destination.js";
+import Crew from "./Crew/Crew.js";
 
 
 
@@ -64,6 +65,7 @@ function Main() {
       </nav>
       {activeItem === 0 && <Home />}
       {activeItem === 1 && <Destination />}
+      {activeItem === 2 && <Crew />}
     </div>
   );
 }

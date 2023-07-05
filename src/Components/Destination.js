@@ -3,6 +3,7 @@ import "./Destination.css";
 import MoonContent from "./MoonContent.js";
 import Mars from "./Mars.js";
 import Europa from "./Europa";
+import Titan from "./Titan.js";
 
 function Destination() {
   const [selectedDestination, setSelectedDestination] = useState(null);
@@ -20,7 +21,7 @@ function Destination() {
       case "EUROPA":
         return <Europa/>;
       case "TITAN":
-        return <div className="destinationContent">Content for Titan</div>;
+        return <Titan/>;
       default:
         return <div className="destinationContent">Select a destination</div>;
     }
