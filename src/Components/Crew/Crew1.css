@@ -1,8 +1,5 @@
 .crew1Container {
     /* margin-top: 200px; */
-    overflow: hidden;
-    overflow-x: hidden;
-  overflow-y: hidden;
   }
   
   .crew1Content {
@@ -15,7 +12,7 @@
   .crew1ContentImage {
     width: 568.072px;
     height: 712px;
-    margin-top: -70px;
+    /* margin-top: -70px; */
     flex-shrink: 0;
   }
   
@@ -54,4 +51,3 @@
     line-height: normal;
     text-transform: uppercase;
   }
-  
