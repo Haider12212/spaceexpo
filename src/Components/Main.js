@@ -20,6 +20,8 @@ function Main() {
       case 1:
         return `url(../assets/destination/background-destination-desktop.jpg)`;
       // Add more cases for other items if needed
+      case 2:
+        return `url(../assets/crew/background-crew-desktop.jpg)`;
       default:
         return `url(../assets/home/background-home-desktop.jpg)`;
     }

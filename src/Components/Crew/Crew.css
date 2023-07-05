@@ -1,29 +1,52 @@
 .crewContainer {
-    padding: 100px 250px;
-    overflow: hidden;
-    overflow-x: hidden;
-  overflow-y: hidden;
-  }
-  .pickCrew {
-    color: #fff;
-    font-size: 28px;
-    font-family: "Barlow Condensed";
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 4.725px;
-    opacity: 0.25;
-    padding-right: 50px;
-  }
-  .crewchoice {
-    color: #fff;
-    font-size: 28px;
-    font-family: "Barlow Condensed";
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 4.725px;
-    text-transform: uppercase;
-    padding-bottom: 100px;
-  }
- 
+  padding: 100px 250px;
+}
+
+.pickCrew {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+  padding-right: 50px;
+}
+
+.crewchoice {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  padding-bottom: 100px;
+}
+.crewnext {
+  /* Existing styles */
+  cursor: pointer;
+}
+
+.crewnext::before,
+.crewnext::after {
+  /* Existing styles */
+  background-color: #d0d6f9; /* Change color to match your design */
+}
+
+.crewnext::before::after,
+.crewnext::after::after {
+  /* Existing styles */
+  background-color: #d0d6f9; /* Change color to match your design */
+}
+
+.crewContentText {
+  position: relative;
+  transition: transform 0.3s ease; /* Add transition property for smooth sliding effect */
+}
+
+.crewContentText.active {
+  transform: translateX(-100%); /* Slide the crew content to the left by the width of the container */
+}

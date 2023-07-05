@@ -6,7 +6,7 @@ import Europa from "./Europa";
 import Titan from "./Titan.js";
 
 function Destination() {
-  const [selectedDestination, setSelectedDestination] = useState(null);
+  const [selectedDestination, setSelectedDestination] = useState("MOON");
 
   const handleDestinationClick = (destination) => {
     setSelectedDestination(destination);
